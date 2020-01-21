@@ -31,12 +31,13 @@ dependencies {
 
 ## Usage
 
-### 1. Get Current Location
+### 1. Calling Permission Activity
 
 ```javascript
         // Call when the app wants to ask run time permissions bt passing required permissions through intent.
        if(PermissionActivity.Check_CAMERA(MainActivity.this) &&
-       PermissionActivity.Check_READ_EXTERNAL_STORAGE(MainActivity.this) && PermissionActivity.Check_WRITE_EXTERNAL_STORAGE(MainActivity.this))
+       PermissionActivity.Check_READ_EXTERNAL_STORAGE(MainActivity.this) &&
+       PermissionActivity.Check_WRITE_EXTERNAL_STORAGE(MainActivity.this))
 				{
 					Toast.makeText(MainActivity.this,"Already permissions are granted.",Toast.LENGTH_SHORT).show();
 				}
@@ -51,4 +52,31 @@ dependencies {
 					intent.putStringArrayListExtra(PermissionActivity.PERMISSION_LIST,permList);
 					startActivityForResult(intent,113);
 				}
+```
+
+
+### 1. Getting Response from Permissions Activity
+
+```javascript
+        // Getting response from PermissionActivity in override method onActivityResult.
+       @Override
+	protected void onActivityResult(int requestCode,int resultCode,@Nullable Intent data)
+	{
+		super.onActivityResult(requestCode,resultCode,data);
+		if(requestCode == 113)
+		{
+			switch(resultCode)
+			{
+				case RESULT_OK:
+					Toast.makeText(this,"Permissions granted successfully",Toast.LENGTH_SHORT).show();
+					break;
+				case RESULT_CANCELED:
+					Toast.makeText(this,"Permissions denied",Toast.LENGTH_SHORT).show();
+					break;
+				default:
+					finish();
+					break;
+			}
+		}
+	}
 ```
