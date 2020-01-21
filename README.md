@@ -34,7 +34,7 @@ dependencies {
 ### 1. Calling Permission Activity
 
 ```javascript
-        // Call when the app wants to ask run time permissions bt passing required permissions through intent.
+        // Call when the app wants to ask run time permissions by passing required permissions through intent.
        if(PermissionActivity.Check_CAMERA(MainActivity.this) &&
        PermissionActivity.Check_READ_EXTERNAL_STORAGE(MainActivity.this) &&
        PermissionActivity.Check_WRITE_EXTERNAL_STORAGE(MainActivity.this))
