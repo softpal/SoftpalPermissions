@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.softpal.softpalpermissions.test" >
+4
+5    <uses-sdk
+5-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:5:5-74
+6        android:minSdkVersion="15"
+6-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:11:5-15:85
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:11:22-76
+11        android:functionalTest="false"
+11-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:13:22-53
+13        android:label="Tests for com.softpal.softpalpermissions.test"
+13-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:15:22-83
+14        android:targetPackage="com.softpal.softpalpermissions.test" />
+14-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:12:22-81
+15
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:24:22-69
+17
+18    <application
+18-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\b61fcb10d7070c66ea9d87bcdc5f3ca8\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true" >
+20-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:7:18-43
+21        <uses-library android:name="android.test.runner" />
+21-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:8:9-60
+21-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8860373790128961296.xml:8:23-57
+22
+23        <activity android:name="com.softpal.softpalpermissions.PermissionActivity" >
+23-->[__tested_artifact__::softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-14:20
+23-->[__tested_artifact__::softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-83
+24        </activity>
+25        <activity
+25-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:10:9-14:67
+26            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+26-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:11:13-75
+27            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+27-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:12:13-144
+28            android:screenOrientation="unspecified"
+28-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:13:13-52
+29            android:theme="@style/Theme.Transparent.Permission" />
+29-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:14:13-64
+30        <activity
+30-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:27:9-33:20
+31            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+31-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:28:13-99
+32            android:theme="@android:style/Theme" >
+32-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:29:13-49
+33            <intent-filter>
+33-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:30:13-32:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:31:17-69
+34-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:31:25-66
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:34:9-40:20
+38            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+38-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:35:13-95
+39            android:theme="@android:style/Theme" >
+39-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:36:13-49
+40            <intent-filter>
+40-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:30:13-32:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:31:17-69
+41-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:31:25-66
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:41:9-47:20
+45            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+45-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:42:13-103
+46            android:theme="@android:style/Theme.Dialog" >
+46-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:43:13-56
+47            <intent-filter>
+47-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:30:13-32:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:31:17-69
+48-->[androidx.test:core:1.2.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\2f7fd54eb31b0c8e3b5a525213617616\core-1.2.0\AndroidManifest.xml:31:25-66
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

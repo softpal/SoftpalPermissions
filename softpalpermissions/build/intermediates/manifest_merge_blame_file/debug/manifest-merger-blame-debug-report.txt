@@ -1,0 +1,22 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.softpal.softpalpermissions"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\src\main\AndroidManifest.xml
+11
+12    <application>
+12-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\src\main\AndroidManifest.xml:6:5-9:19
+13        <activity android:name="com.softpal.softpalpermissions.PermissionActivity" >
+13-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\src\main\AndroidManifest.xml:7:9-8:20
+13-->E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\src\main\AndroidManifest.xml:7:19-53
+14        </activity>
+15    </application>
+16
+17</manifest>
