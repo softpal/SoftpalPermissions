@@ -55,7 +55,7 @@ dependencies {
 ```
 
 
-### 1. Getting Response from Permissions Activity
+### 2. Getting Response from Permissions Activity
 
 ```javascript
         // Getting response from PermissionActivity in override method onActivityResult.
