@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">SoftpalPermissions</string>
+
+
+    <!--PermissionsActivity-->
+    <string name="please_grant_permissions" translatable="false">Please grant permissions</string>
+    <string name="permissions_description" translatable="false">To give you a more seamless travel experience, you will need to grant us access to the following features.</string>
+    <string name="location_title" translatable="false">Location</string>
+    <string name="phone_calls_title" translatable="false">Phone Calls</string>
+    <string name="storage_title" translatable="false">Storage</string>
+
+    <string name="access_fine_location_perm" translatable="false">Location</string>
+    <string name="access_coarse_location_perm" translatable="false">Location</string>
+    <string name="read_phone_state_perm" translatable="false">Phone Calls</string>
+    <string name="read_calender_perm" translatable="false">Read Calender</string>
+    <string name="write_calender_perm" translatable="false">Write Calender</string>
+    <string name="camera_perm" translatable="false">Camera</string>
+    <string name="read_contacts_perm" translatable="false">Read Contacts</string>
+    <string name="write_contacts_perm" translatable="false">Write Contacts</string>
+    <string name="get_accounts_perm" translatable="false">Get Accounts</string>
+    <string name="record_audio_perm" translatable="false">Record Audio</string>
+    <string name="read_phone_numbers_perm" translatable="false">Read Phone Numbers</string>
+    <string name="call_phone_perm" translatable="false">Call Phone</string>
+    <string name="answer_phone_calls_perm" translatable="false">Answer Phone Calls</string>
+    <string name="read_call_log_perm" translatable="false">Read Call Log</string>
+    <string name="write_call_log_perm" translatable="false">Write Call Log</string>
+    <string name="add_voice_mail_perm" translatable="false">VoiceMail</string>
+    <string name="use_sip_perm" translatable="false">SIP</string>
+    <string name="process_outgoing_calls_perm" translatable="false">Outgoing Calls</string>
+    <string name="body_sensors_perm" translatable="false">Body Sensors</string>
+    <string name="send_sms_perm" translatable="false">Send SMS</string>
+    <string name="receive_sms_perm" translatable="false">Receive SMS</string>
+    <string name="read_sms_perm" translatable="false">Read SMS</string>
+    <string name="receive_wap_push_perm" translatable="false">WAP Push</string>
+    <string name="receive_mms_perm" translatable="false">Receive MMS</string>
+    <string name="read_external_storage_perm" translatable="false">Read External Storage</string>
+    <string name="write_external_storage_perm" translatable="false">Write External Storage</string>
+
+    <string name="location_perm_desc" translatable="false">App needs location access permission to upload drivers location while delivery.</string>
+    <string name="read_calender_perm_desc" translatable="false">Allows an app to read events from Calender.</string>
+    <string name="write_calender_perm_desc" translatable="false">Allows an app write events to Calender.</string>
+    <string name="camera_perm_desc" translatable="false">Allows an app to open Camera for taking pictures and to record video.</string>
+    <string name="read_contacts_perm_desc" translatable="false">Allows an app to read contacts.</string>
+    <string name="write_contacts_perm_desc" translatable="false">Allows an app to write contacts.</string>
+    <string name="get_accounts_perm_desc" translatable="false">Allows an app to get accounts.</string>
+    <string name="read_phone_numbers_perm_desc" translatable="false">Allows an app to read phone numbers.</string>
+    <string name="call_phone_perm_desc" translatable="false">Allows an app to dial a phone call.</string>
+    <string name="answer_phone_calls_perm_desc" translatable="false">Allows an app to answer phone calls.</string>
+    <string name="read_call_log_perm_desc" translatable="false">Allows an app to read call log from an app.</string>
+    <string name="write_call_log_perm_desc" translatable="false">Allows an app to write call log from an app.</string>
+    <string name="add_voicemail_perm_desc" translatable="false">Allows an app to add voicemail.</string>
+    <string name="use_sip_perm_desc" translatable="false">Allows an app to SIP.</string>
+    <string name="process_outgoing_calls_perm_desc" translatable="false">Allows an app to process outgoing calls.</string>
+    <string name="body_sensors_perm_desc" translatable="false">Allows an app to access to body sensor for tracking steps, calories etc.</string>
+    <string name="send_sms_perm_desc" translatable="false">Allows an app to send SMS.</string>
+    <string name="receive_sms_perm_desc" translatable="false">Allows an app to receive SMS.</string>
+    <string name="receive_wap_push_perm_desc" translatable="false">Allows an app to receive an WAP Push.</string>
+    <string name="receive_mms_perm_desc" translatable="false">Allows an app to receive MMS.</string>
+    <string name="write_external_storage_perm_desc" translatable="false">Allows an app to write and modify files within an external storage device.</string>
+    <string name="read_external_storage_perm_desc" translatable="false">Allows an app to read files from an external storage device.</string>
+    <string name="record_audio_perm_desc" translatable="false">Allows an app to record an audio</string>
+    <string name="read_sms_perm_desc" translatable="false">Allows an app to read messages.</string>
+    <string name="read_phone_state_perm_desc" translatable="false">Allows an app to call to the customers from the app, while doing delivery.</string>
+
+</resources>

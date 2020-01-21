@@ -1,0 +1,38 @@
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/cl_location_permission"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tv_permission_description"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_location_permission" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_permission_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/location_title"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/iv_permission"
+        app:layout_constraintTop_toTopOf="@id/iv_permission" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_permission_list_description"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_permission_list_title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_permission_list_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
