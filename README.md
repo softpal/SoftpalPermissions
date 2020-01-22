@@ -4,7 +4,6 @@
 ### Developed by
 [Softpal](https://www.github.com/softpal)
 
-[![](https://jitpack.io/v/softpal/SoftpalPermissions.svg)](https://jitpack.io/#softpal/SoftpalPermissions)
 
 **Features**
 
@@ -22,7 +21,7 @@ Add repository url and dependency in application module gradle file:
 	}
 
 ### Gradle
-[![](https://jitpack.io/v/softpal/LocationUtils.svg)](https://jitpack.io/#softpal/LocationUtils)
+[![](https://jitpack.io/v/softpal/SoftpalPermissions.svg)](https://jitpack.io/#softpal/SoftpalPermissions)
 ```javascript
 dependencies {
     implementation 'com.github.softpal:softpalpermissions:1.0'
