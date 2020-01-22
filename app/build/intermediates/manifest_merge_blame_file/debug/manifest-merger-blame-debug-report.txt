@@ -22,52 +22,59 @@
 14    <uses-permission android:name="android.permission.CAMERA" />
 14-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:8:5-64
 14-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:8:22-62
-15
-16    <application
-16-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:10:5-24:19
-17        android:allowBackup="true"
-17-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:11:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\b61fcb10d7070c66ea9d87bcdc5f3ca8\core-1.1.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:12:9-43
-21        android:label="@string/app_name"
-21-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:13:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:14:9-54
-23        android:supportsRtl="true"
-23-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:15:9-35
-24        android:theme="@style/AppTheme.NoActionBar" >
-24-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:16:9-52
-25        <activity android:name="com.softpal.softpalpermission.MainActivity" >
-25-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:17:9-23:20
-25-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:17:19-47
-26            <intent-filter>
-26-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:17-69
-27-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:17-77
-29-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity android:name="com.softpal.softpalpermissions.PermissionActivity" >
-32-->[:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-14:20
-32-->[:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-83
-33        </activity>
-34        <activity
-34-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:10:9-14:67
-35            android:name="com.gun0912.tedpermission.TedPermissionActivity"
-35-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:11:13-75
-36            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
-36-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:12:13-144
-37            android:screenOrientation="unspecified"
-37-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:13:13-52
-38            android:theme="@style/Theme.Transparent.Permission" />
-38-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:14:13-64
-39    </application>
-40
-41</manifest>
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:9:5-66
+15-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:10:5-75
+16-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:10:22-73
+17
+18    <application
+18-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:12:5-26:19
+19        android:allowBackup="true"
+19-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\b61fcb10d7070c66ea9d87bcdc5f3ca8\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme.NoActionBar" >
+27-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:18:9-52
+28        <activity android:name="com.softpal.softpalpermission.MainActivity" >
+28-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:9-25:20
+28-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:19-47
+29            <intent-filter>
+29-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:17-69
+30-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:23:17-77
+32-->E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.softpal.softpalpermissions.PermissionActivity" >
+35-->[:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-14:20
+35-->[:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-83
+36        </activity>
+37        <activity
+37-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:10:9-14:67
+38            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+38-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:11:13-75
+39            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+39-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:12:13-144
+40            android:screenOrientation="unspecified"
+40-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:13:13-52
+41            android:theme="@style/Theme.Transparent.Permission" />
+41-->[gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:14:13-64
+42    </application>
+43
+44</manifest>

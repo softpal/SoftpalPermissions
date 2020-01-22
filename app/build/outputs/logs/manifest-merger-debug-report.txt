@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\b468cdc164d89b907b8fdcd073b271ce\material-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -40,20 +40,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\venkatesh\.gradle\caches\trans
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\9c59bc448d886c355d93973e7992c7e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\18ee52ffe84f036c36e0bc2aa576d72a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\bf8f2133c0e724a1561e29b6adf1a540\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml
 		INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:2:11-69
@@ -73,8 +73,16 @@ uses-permission#android.permission.CAMERA
 ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:8:5-64
 	android:name
 		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:8:22-62
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:10:22-73
 application
-ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:10:5-24:19
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:12:5-26:19
 MERGED from [:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-15:19
 MERGED from [:softpalpermissions] E:\AndroidStudioProjects\SoftpalPermissions\softpalpermissions\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-15:19
 MERGED from [gun0912.ted:tedpermission:2.2.1] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\f16ba2216b25b7ee02d82356f5165c63\jetified-tedpermission-2.2.1\AndroidManifest.xml:9:5-15:19
@@ -90,31 +98,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ve
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\venkatesh\.gradle\caches\transforms-2\files-2.1\b61fcb10d7070c66ea9d87bcdc5f3ca8\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:16:9-52
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:18:9-52
 activity#com.softpal.softpalpermission.MainActivity
-ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\AndroidStudioProjects\SoftpalPermissions\app\src\main\AndroidManifest.xml

@@ -248,8 +248,6 @@ public class PermissionActivity extends AppCompatActivity
 		listPemissions.put(Manifest.permission.READ_EXTERNAL_STORAGE,new Permission(R.drawable.perm_storage,getResources().getString(R.string.read_external_storage_perm),getResources().getString(R.string.read_external_storage_perm_desc),Manifest.permission.READ_EXTERNAL_STORAGE,true));
 		listPemissions.put(Manifest.permission.WRITE_EXTERNAL_STORAGE,new Permission(R.drawable.perm_storage,getResources().getString(R.string.write_external_storage_perm),getResources().getString(R.string.write_external_storage_perm_desc),Manifest.permission.WRITE_EXTERNAL_STORAGE,true));
 		
-		// PROTECTION_NORMAL permissions
-		listPemissions.put(Manifest.permission.ACCESS_WIFI_STATE,new Permission(R.drawable.ic_call_permission,getResources().getString(R.string.phone_calls_title),getResources().getString(R.string.add_voicemail_perm_desc),Manifest.permission.ACCESS_WIFI_STATE,false));
 		
 		RecyclerView rvPermission = findViewById(R.id.rv_permissions);
 		MaterialButton btnGrant = findViewById(R.id.btn_grant_permission);
@@ -275,9 +273,12 @@ public class PermissionActivity extends AppCompatActivity
 		HashSet<Permission> permSet = new HashSet<>();
 		for(String permission : list)
 		{
-			if(listPemissions.get(permission).isDangerous())
+			if(listPemissions.get(permission) != null)
 			{
-				permSet.add(listPemissions.get(permission));
+				if(listPemissions.get(permission).isDangerous())
+				{
+					permSet.add(listPemissions.get(permission));
+				}
 			}
 		}
 		ArrayList<Permission> listForDisplay = new ArrayList<>(permSet);
