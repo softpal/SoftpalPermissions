@@ -4,7 +4,7 @@
 ### Developed by
 [Softpal](https://www.github.com/softpal)
 
-[![](https://jitpack.io/v/softpal/LocationUtils.svg)](https://jitpack.io/#softpal/LocationUtils)
+[![](https://jitpack.io/v/softpal/SoftpalPermissions.svg)](https://jitpack.io/#softpal/SoftpalPermissions)
 
 **Features**
 
